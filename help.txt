@@ -1,0 +1,270 @@
+
+C:\Users\prate\OneDrive - BENNETT UNIVERSITY\Golang-Project\Order-Food>goProject
+What is your first name?
+Shivanshu
+                                            Namaste  Shivanshu
+                               _/\_ Welcome to Night Food Express! _/\_
+
+           Menu
+-----------------------------------
+S.No.    Price       Item Name
+-----------------------------------
+ 1       20.00    Adrakh Chai
+ 2       25.00    Filter Coffee
+ 3       35.50    Chhas
+ 4       30.00    Lassi
+ 5       60.00    Mango Lassi
+ 6       50.00    Kadi Chaawal
+ 7       45.00    Chhole Bhature
+ 8       30.00    Khasta Kachori
+ 9       30.00    Raj Kachori
+ 10      20.00    Veg. Sandwich
+ 11      60.00    Veg. Masala Maggi
+ 12      20.00    Samosa
+ 13      15.00    Cream Roll
+-----------------------------------
+
+Enter '0' to exit.
+Enter the serial no. of the item to order: 1
+How many Adrakh Chai do you want: 1
+
+You just ordered 1 Adrakh Chai which amounts to ₹20.
+
+Your order till now:
+--------------------------------
+ Quantity     Item
+--------------------------------
+ 1            Adrakh Chai
+--------------------------------
+
+
+Enter '0' to exit.
+Enter the serial no. of the item to order: 2
+How many Filter Coffee do you want: 2
+
+You just ordered 2 Filter Coffee which amounts to ₹50.
+
+Your order till now:
+--------------------------------
+ Quantity     Item
+--------------------------------
+ 1            Adrakh Chai
+ 2            Filter Coffee
+--------------------------------
+
+
+Enter '0' to exit.
+Enter the serial no. of the item to order: 3
+How many Chhas do you want: 3
+
+You just ordered 3 Chhas which amounts to ₹106.5.
+
+Your order till now:
+--------------------------------
+ Quantity     Item
+--------------------------------
+ 1            Adrakh Chai
+ 2            Filter Coffee
+ 3            Chhas
+--------------------------------
+
+
+Enter '0' to exit.
+Enter the serial no. of the item to order: 4
+How many Lassi do you want: 4
+
+You just ordered 4 Lassi which amounts to ₹120.
+
+Your order till now:
+--------------------------------
+ Quantity     Item
+--------------------------------
+ 1            Adrakh Chai
+ 2            Filter Coffee
+ 3            Chhas
+ 4            Lassi
+--------------------------------
+
+
+Enter '0' to exit.
+Enter the serial no. of the item to order: 5
+How many Mango Lassi do you want: 5
+
+You just ordered 5 Mango Lassi which amounts to ₹300.
+
+Your order till now:
+--------------------------------
+ Quantity     Item
+--------------------------------
+ 1            Adrakh Chai
+ 2            Filter Coffee
+ 3            Chhas
+ 4            Lassi
+ 5            Mango Lassi
+--------------------------------
+
+
+Enter '0' to exit.
+Enter the serial no. of the item to order: 6
+How many Kadi Chaawal do you want: 6
+
+You just ordered 6 Kadi Chaawal which amounts to ₹300.
+
+Your order till now:
+--------------------------------
+ Quantity     Item
+--------------------------------
+ 4            Lassi
+ 5            Mango Lassi
+ 6            Kadi Chaawal
+ 1            Adrakh Chai
+ 2            Filter Coffee
+ 3            Chhas
+--------------------------------
+
+
+Enter '0' to exit.
+Enter the serial no. of the item to order: 7
+How many Chhole Bhature do you want: 7
+
+You just ordered 7 Chhole Bhature which amounts to ₹315.
+
+Your order till now:
+--------------------------------
+ Quantity     Item
+--------------------------------
+ 2            Filter Coffee
+ 3            Chhas
+ 4            Lassi
+ 5            Mango Lassi
+ 6            Kadi Chaawal
+ 7            Chhole Bhature
+ 1            Adrakh Chai
+--------------------------------
+
+
+Enter '0' to exit.
+Enter the serial no. of the item to order: 8
+How many Khasta Kachori do you want: 8
+
+You just ordered 8 Khasta Kachori which amounts to ₹240.
+
+Your order till now:
+--------------------------------
+ Quantity     Item
+--------------------------------
+ 7            Chhole Bhature
+ 8            Khasta Kachori
+ 1            Adrakh Chai
+ 2            Filter Coffee
+ 3            Chhas
+ 4            Lassi
+ 5            Mango Lassi
+ 6            Kadi Chaawal
+--------------------------------
+
+
+Enter '0' to exit.
+Enter the serial no. of the item to order: 9
+How many Raj Kachori do you want: 9
+
+You just ordered 9 Raj Kachori which amounts to ₹270.
+
+Your order till now:
+--------------------------------
+ Quantity     Item
+--------------------------------
+ 2            Filter Coffee
+ 3            Chhas
+ 6            Kadi Chaawal
+ 7            Chhole Bhature
+ 9            Raj Kachori
+ 1            Adrakh Chai
+ 4            Lassi
+ 5            Mango Lassi
+ 8            Khasta Kachori
+--------------------------------
+
+
+Enter '0' to exit.
+Enter the serial no. of the item to order: 9
+How many Raj Kachori do you want: 9
+
+You just ordered 9 Raj Kachori which amounts to ₹270.
+
+Your order till now:
+--------------------------------
+ Quantity     Item
+--------------------------------
+ 2            Filter Coffee
+ 3            Chhas
+ 6            Kadi Chaawal
+ 7            Chhole Bhature
+ 18           Raj Kachori
+ 1            Adrakh Chai
+ 4            Lassi
+ 5            Mango Lassi
+ 8            Khasta Kachori
+--------------------------------
+
+
+Enter '0' to exit.
+Enter the serial no. of the item to order: 0
+
+************************************* Generating Bill *************************************
++------------------------------------------------------------------------------------------+
+ Item Name                      Price(₹)             Quantity             Total Price(₹)
++------------------------------------------------------------------------------------------+
+ Adrakh Chai                    20.00                1                    20.00
+ Lassi                          30.00                4                    120.00
+ Mango Lassi                    60.00                5                    300.00
+ Khasta Kachori                 30.00                8                    240.00
+ Filter Coffee                  25.00                2                    50.00
+ Chhas                          35.50                3                    106.50
+ Kadi Chaawal                   50.00                6                    300.00
+ Chhole Bhature                 45.00                7                    315.00
+ Raj Kachori                    30.00                18                   540.00
+
++------------------------------------------------------------------------------------------+
+                                               Sub Total(excluding GST): ₹1991.50
+Do you want to change your order?[y/n]
+n
+Here is your final bill:-
+
+                                  Night FOOD EXPRESS
+*******************************************************************************************
+         Bhawani Singh Road, First Floor, Noida Bhojanalya, Noida, Noida 302005, India
+                                   Tel: 9214562839
+                          Email: noida.bhojanalaya@gmail.com
+
+------------------------------------------INVOICE------------------------------------------
+ Ticket No: 443
+ Date: 23-Aug-16
+ Time: 7:21 PM
++------------------------------------------------------------------------------------------+
+ Item Name                      Price(₹)             Quantity             Total Price(₹)
++------------------------------------------------------------------------------------------+
+ Adrakh Chai                    20.00                1                    20.00
+ Lassi                          30.00                4                    120.00
+ Mango Lassi                    60.00                5                    300.00
+ Khasta Kachori                 30.00                8                    240.00
+ Filter Coffee                  25.00                2                    50.00
+ Chhas                          35.50                3                    106.50
+ Kadi Chaawal                   50.00                6                    300.00
+ Chhole Bhature                 45.00                7                    315.00
+ Raj Kachori                    30.00                18                   540.00
+
++------------------------------------------------------------------------------------------+
+                                               Sub Total(excluding GST): ₹1991.50
+                                                                    GST: ₹358.47
++------------------------------------------------------------------------------------------+
+                                                            Grand Total: ₹2349.97
++------------------------------------------------------------------------------------------+
+
+                 _/\_ Thank you Shivanshu for visiting Night Food Express! _/\_
+                              We hope to see you again!
+                                  Have a nice Night!
+
+C:\Users\prate\OneDrive - BENNETT UNIVERSITY\Golang-Project\Order-Food>^A
+
+C:\Users\prate\OneDrive - BENNETT UNIVERSITY\Golang-Project\Order-Food>^A
